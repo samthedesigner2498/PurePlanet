@@ -1,0 +1,180 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Pure Planet HomePage</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PurePlanet</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="https://i.ibb.co/3YDbPYt/Designer-removebg-preview.png" alt="PurePlanet Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="https://codepen.io/Sameera-Chalamalasetty/full/QWRXmdb
+          ">Home</a></li>
+        <li><a href="https://codepen.io/Sameera-Chalamalasetty/full/qBzWwew">Activities</a></li>
+        <li><a href="https://codepen.io/Sameera-Chalamalasetty/full/MWMgdgV">Blog</a></li>
+        <li><a href="https://codepen.io/Sameera-Chalamalasetty/full/rNEBgWQ">Events</a></li>
+        <li><a href="https://codepen.io/Sameera-Chalamalasetty/full/gONYJgL">Collaborations</a></li>
+        <li><a href="https://codepen.io/Sameera-Chalamalasetty/full/yLdBWgE">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <div class="hero-content">
+      <h1>More Ideas. Less Waste.</h1>
+      <p>Join us in making the world a better place.</p>
+    </div>
+  </section>
+
+  <main>
+    <section id="activities">
+      <div class="content">
+        <h2>Our Activities</h2>
+        <p>At PurePlanet, we engage in various activities to promote sustainability:</p>
+        <ul>
+          <li>Volunteering for community cleanups</li>
+          <li>Recycling initiatives</li>
+          <li>Blogging about sustainable living</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="blog">
+      <div class="content">
+        <h2>Latest Blog Articles</h2>
+        <article>
+          <img src="https://i.ibb.co/MfQvNkz/blog-image.jpg" alt="Blog Article Image">
+          <h3>Cutting Carbon From Your Vegetarian Diet</h3>
+          <p>Discover how you can reduce your carbon footprint by adjusting your diet.</p>
+          <a href="blog.html">Read More</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="events">
+      <div class="content">
+        <h2>Upcoming Events</h2>
+        <p>Join us at our upcoming events to make a difference:</p>
+        <ul>
+          <li>Beach Cleanup - July 15, 2024</li>
+          <li>Community Recycling Drive - August 5, 2024</li>
+          <li>Sustainability Workshop - September 10, 2024</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="collaborations">
+      <div class="content">
+        <h2>Our Collaborations</h2>
+        <p>We proudly collaborate with the following organizations to promote environmental sustainability:</p>
+        <ul>
+          <li>Eco Partners</li>
+          <li>Green Earth</li>
+          <li>Sustainable Future</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="newsletter">
+        <h3>Join 160,000+ Earthlings</h3>
+        <p>Sign up for our newsletter to receive eco-friendly tips and news.</p>
+        <form>
+          <input type="email" placeholder="Your email address">
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+      <div class="social-media">
+        <h3>Follow Us</h3>
+        <div class="icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+    <p>&copy; 2024 PurePlanet. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PurePlanet</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <script>
+    function showPage(pageId) {
+      document.querySelectorAll('.page').forEach(page => {
+        page.style.display = 'none';
+      });
+      document.getElementById(pageId).style.display = 'block';
+    }
+  </script>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="https://i.ibb.co/smPt9bK/Designer-removebg-preview.png" alt="PurePlanet Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#" onclick="showPage('home')">Home</a></li>
+        <li><a href="#" onclick="showPage('activities')">Activities</a></li>
+        <li><a href="#" onclick="showPage('blog')">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="page">
+    <!-- Home page content -->
+  </section>
+
+  <section id="activities" class="page" style="display:none;">
+    <!-- Activities page content -->
+  </section>
+
+  <section id="blog" class="page" style="display:none;">
+    <!-- Blog page content -->
+  </section>
+
+  <footer>
+    <!-- Footer content -->
+  </footer>
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
